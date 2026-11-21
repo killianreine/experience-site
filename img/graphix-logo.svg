@@ -1,0 +1,27 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Graphix">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#4338ca"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="44" fill="url(#bg)"/>
+  <!-- Arêtes du graphe -->
+  <g stroke="#fff" stroke-width="7" stroke-linecap="round" fill="none">
+    <line x1="56" y1="62" x2="146" y2="54"/>
+    <line x1="60" y1="146" x2="144" y2="142"/>
+    <line x1="56" y1="62" x2="100" y2="102"/>
+    <line x1="146" y1="54" x2="100" y2="102"/>
+    <line x1="60" y1="146" x2="100" y2="102"/>
+    <line x1="144" y1="142" x2="100" y2="102"/>
+  </g>
+  <!-- Sommets -->
+  <g fill="#fff">
+    <circle cx="56" cy="62" r="15"/>
+    <circle cx="146" cy="54" r="15"/>
+    <circle cx="60" cy="146" r="15"/>
+    <circle cx="144" cy="142" r="15"/>
+  </g>
+  <!-- Sommet d'accent -->
+  <circle cx="100" cy="102" r="19" fill="#fbbf24"/>
+</svg>
